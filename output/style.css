@@ -1,0 +1,39 @@
+* {
+  font-family: "Nanum Myeongjo", serif;
+  color: #113333;
+}
+
+body {
+  /* background-color: #6c5b7b; */
+  background-image: linear-gradient(
+    to right,
+    #355c7d,
+    #6c5b7b,
+    #c06c84,
+    #f67280,
+    #f8b195
+  );
+}
+
+.jumbotron {
+  background-color: #355c7d;
+  border-bottom: 2px solid#113333;
+}
+
+.card {
+  margin-right: 2rem;
+  text-align: center;
+}
+
+.card-header {
+  background-color: #c06c84;
+}
+
+.card-body {
+  background-color: #f67280;
+}
+
+.list-group-item {
+  background-color: #f8b195;
+  font-size: 23px;
+}
